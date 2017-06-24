@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/kv_lyt_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#999"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@color/colorWhite"
+        android:keyPreviewHeight="100dp"
+        android:keyPreviewLayout="@layout/lyt_preview"
+        android:keyTextColor="#333"
+        android:shadowColor="#00000000" />
+</merge>
